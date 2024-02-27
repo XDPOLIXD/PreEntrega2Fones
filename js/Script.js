@@ -1,7 +1,5 @@
-// Variables necesarias
 let calculadoraArray = [];
 
-// Función para iniciar la calculadora
 function iniciarCalculadora() {
     let continuar = true; // Movido aquí para que siempre se reinicie al iniciar la calculadora
     while (continuar) {
@@ -22,7 +20,6 @@ function iniciarCalculadora() {
     }
 }
 
-// Función para realizar operaciones
 function realizarOperacion(operacion, num1, num2) {
     switch (operacion) {
         case '+':
@@ -46,7 +43,6 @@ function realizarOperacion(operacion, num1, num2) {
     }
 }
 
-// Función para mostrar el resultado
 function mostrarResultado() {
     alert("Resultado: " + calculadoraArray[calculadoraArray.length - 1]);
 }
